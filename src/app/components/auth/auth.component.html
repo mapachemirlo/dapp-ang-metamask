@@ -1,0 +1,5 @@
+<div class="container margen">
+<button *ngIf="!loginUser" (click)="connect()" class="btn btn-primary">Conectar</button>
+<h1 *ngIf="addressUserView">Address Logada:</h1>
+<span  *ngIf="addressUserView" class="input-group-text" id="basic-addon2">{{addressUser}}</span>
+</div>
